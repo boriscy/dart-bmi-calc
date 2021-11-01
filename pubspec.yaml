@@ -3,6 +3,8 @@ description: A new Flutter application.
 
 version: 1.0.0+1
 
+non-nullable: true
+
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
@@ -13,6 +15,8 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   font_awesome_flutter: ^9.1.0
+
+  get:
 
 dev_dependencies:
   flutter_test:

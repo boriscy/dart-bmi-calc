@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
 class IconCard extends StatelessWidget {
   IconCard({this.icon, this.text, this.size = 80});
@@ -13,7 +14,7 @@ class IconCard extends StatelessWidget {
       children: [
         Icon(this.icon, size: size),
         SizedBox(height: 10),
-        Text(text, style: TextStyle(fontSize: 18, color: Colors.grey))
+        Text(text, style: kLabelStyle)
       ],
     );
   }
